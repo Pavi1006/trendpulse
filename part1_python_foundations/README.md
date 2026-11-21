@@ -30,3 +30,4 @@ pip install -r requirements.txt
 ## Design decisions
 - Only pd.read_csv() and to_dict("records") use Pandas. Everything else is core Python.
 - Each data structure was chosen for its job (explained in the notebook).
+The CSVs were trimmed by dropping the description, tags and thumbnail_link columns.
